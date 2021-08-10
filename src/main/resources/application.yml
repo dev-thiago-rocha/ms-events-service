@@ -1,0 +1,9 @@
+server:
+  port: 8181
+
+spring:
+  data:
+    mongodb:
+      host: mongo
+      port: 27017
+      database: events_db
