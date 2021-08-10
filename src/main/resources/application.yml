@@ -4,6 +4,6 @@ server:
 spring:
   data:
     mongodb:
-      host: mongo
+      host: ${MONGO_HOST:mongo}
       port: 27017
       database: events_db
